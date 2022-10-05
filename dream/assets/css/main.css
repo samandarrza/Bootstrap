@@ -1,0 +1,68 @@
+.btn-signup {
+    --bs-btn-color: #b4a7f5;
+    --bs-btn-border-color: #b4a7f5;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(255, 77, 0);
+    --bs-btn-hover-border-color: rgb(255, 77, 0);
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b4a7f5;
+    --bs-btn-active-border-color: #b4a7f5;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #b4a7f5;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #b4a7f5;
+    --bs-gradient: none;
+  }
+  .btn-signin {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #b4a7f5;
+    --bs-btn-border-color: #b4a7f5;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #b4a7f5;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b4a7f5;
+    --bs-btn-active-border-color: #b4a7f5;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #b4a7f5;
+    --bs-btn-disabled-border-color: #b4a7f5;
+}
+.back{
+    background-image: url(https://dreamslms.dreamguystech.com/html/assets/img/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.size1{
+  font-size: 48px;
+  font-weight: 600;
+}
+.size2{
+  font-size: 16px;
+  font-weight: 600;
+}
+.mt-8 {
+  margin-top: 8rem !important;
+}
+.menu > a ,a{
+    color: gray;
+    text-decoration: none;
+}
+.menu > a:hover ,a:hover{
+    color: red;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input,button,textarea{
+  outline: none;
+}
+.axtar{
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
